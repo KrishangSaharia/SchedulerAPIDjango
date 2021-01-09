@@ -1,5 +1,4 @@
 # SchedulingAPIDjango
-# FoodSite
 
 ## Table of contents
 * [General info](#general-info)
@@ -15,9 +14,7 @@ To install all the dependencies run:
 ```
 $ pip install -r requirements.txt
 ```
-### Note:
-* Specify Username And Password for Admin Mail in setings.py .
-* Specify Google Oath client id Credentials in settings.py
+
 ## Run :
 ```
 $ python manage.py makemigrations
