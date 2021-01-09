@@ -1,1 +1,1 @@
-web: gunicorn SchedulerAPIDjango.SchedulerAPIDjango.wsgi --log-file -
+web: waitress SchedulerAPIDjango.SchedulerAPIDjango.wsgi --log-file -
