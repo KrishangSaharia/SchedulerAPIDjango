@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info
-This project includes scheduling Django Rest APIs
+This project includes scheduling Django Rest APIs, it uses AdvancedPythonScheduler module fro scheduling tasks.
 This contains 2 endpoints - 
 one for scheduling and other one is ping endpoint to check whether the server is alive or not .
 
@@ -15,18 +15,21 @@ and second arguement will be the url which is to be called at scheduled time . F
 
 Response will JSON data with a message "Task Scheduled Successfully!" , if scheduling is successfull.
 For eg. - 
-{
-    "message": "Task Scheduled Successfully!"
-}
+```
+${
+$    "message": "Task Scheduled Successfully!"
+$}
+```
 
 
 ### 2. Ping Endpoint -
 This endpoint checks whether server is alive or not , and returns JSON message 'OK' is server is alive , otherwise returns 'Network Error'.
 For eg. - 
-{
-    "status": "OK"
-}
-
+```
+${
+$    "status": "OK"
+$}
+```
 
 ## Setup
 To install all the dependencies run: 
