@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #other apps
-    'rest_framework'
+    'rest_framework',
 
     #local apps
-    'scheduler.Apps.SchedulerConfig'
+    'scheduler.apps.SchedulerConfig',
 ]
 
 MIDDLEWARE = [
