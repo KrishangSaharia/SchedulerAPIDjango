@@ -4,6 +4,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import datetime
 import requests
 import os
+import platform
 
 from rest_framework import status
 from rest_framework.response import Response
@@ -30,7 +31,8 @@ def schedule_url(request):
 
 @api_view(['GET'])
 def ping_status(request):
-    response = os.system("ping -n 1 " + request.GET['url'])
+    param = '-n' if platform.system().lower() == 'windows' else '-c'
+    response = os.system("ping " + param + " 1 " + request.GET['host'])
 
     if response == 0:
         pingstatus = "OK"
