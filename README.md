@@ -11,7 +11,7 @@ one for scheduling and other one is ping endpoint to check whether the server is
 
 ### 1. Scheduling Endpoint :
 This requires two arguements - first arguement will be datetime string in the format '%d/%m/%y %H:%M:%S' . For eg. 09/01/21 13:39:30 .
-and second arguement will be the url which is to be called at scheduled time . For eg. https://google.com .
+and second arguement will be the url which is to be called through GET request at scheduled time (first arguement) . For eg. https://google.com .
 
 Response will JSON data with a message "Task Scheduled Successfully!" , if scheduling is successfull.
 For eg. - 
