@@ -6,10 +6,12 @@
 
 ## General info
 This project includes scheduling Django Rest APIs
+This contains 2 endpoints - 
+one for scheduling and other one is ping endpoint to check whether the server is alive or not .
 
 
 ## Setup
-To install all the dependencies run inside SchedulerAPIDjango directory: 
+To install all the dependencies run: 
 
 ```
 $ pip install -r requirements.txt
