@@ -25,6 +25,7 @@ For eg. -
 
 ### 2. Ping Endpoint -
 This endpoint checks whether server is alive or not , and returns JSON message 'OK' is server is alive , otherwise returns 'Network Error'.
+It takes a arguement named host ,to check whether the server is alive or not. For eg. host=google.com 
 For eg. - 
 ```
 {
