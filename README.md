@@ -16,9 +16,9 @@ and second arguement will be the url which is to be called at scheduled time . F
 Response will JSON data with a message "Task Scheduled Successfully!" , if scheduling is successfull.
 For eg. - 
 ```
-${
-$    "message": "Task Scheduled Successfully!"
-$}
+{
+    "message": "Task Scheduled Successfully!"
+}
 ```
 
 
@@ -26,9 +26,9 @@ $}
 This endpoint checks whether server is alive or not , and returns JSON message 'OK' is server is alive , otherwise returns 'Network Error'.
 For eg. - 
 ```
-${
-$    "status": "OK"
-$}
+{
+    "status": "OK"
+}
 ```
 
 ## Setup
@@ -49,4 +49,8 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 ### Now , you can start deploying at your local host.
+
+### This Project has been deployed on heroku also - 
+Link is https://pacific-woodland-79523.herokuapp.com/
+
 
