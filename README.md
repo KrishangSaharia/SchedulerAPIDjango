@@ -9,7 +9,7 @@ This project includes scheduling Django Rest APIs
 
 
 ## Setup
-To install all the dependencies run: 
+To install all the dependencies run inside SchedulerAPIDjango directory: 
 
 ```
 $ pip install -r requirements.txt
